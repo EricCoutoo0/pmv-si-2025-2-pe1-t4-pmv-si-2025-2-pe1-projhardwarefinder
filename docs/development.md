@@ -25,10 +25,38 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito | Responsável | Artefato Criado |
-|------|------------------------|------------|-----------------|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | João | index.html |
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês | Ana Paula | cadastro-noticia.html |
+|ID    | |RF-001| | Eric | Artefato Criado |
+ Atualizar e aprimorar o protótipo no Lovable, para servir de referência visual e criativa.
+
+Criar a página inicial (Home) do site.
+
+Garantir que as duas páginas sigam o mesmo padrão visual (cores, fontes e layout).
+
+Ajudar na revisão geral e integração entre as páginas.
+  index.html |
+
+ |ID    | |RF-002| | Marco Antônio | Artefato Criado |
+ Criar as páginas de Login e Perfil do usuário.
+
+Atualizar a documentação principal do projeto (Etapa 3) com:
+
+Estrutura e arquitetura do site.
+
+Explicação das funcionalidades e telas.
+
+Relação entre requisitos e implementações.
+
+Novas capturas de tela e fluxos atualizados. | Hardwarefinder.html |
+
+
+|ID    | |RF-003| | Marcelo | Artefato Criado |
+ Criar a página de busca (Search) com filtros e resultados.
+
+Atualizar a documentação, especialmente o User Flow, com base nas novas páginas e na navegação atualizada.
+
+Garantir que o User Flow mostre claramente o caminho do usuário (Home → Search → Login → Perfil).
+
+Revisar a coerência visual e estrutural entre as páginas.
 
 ## Descrição das estruturas:
 
@@ -36,7 +64,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 | Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
+| Título         | Texto             | Título da notícia                         | Hardwarefinder  é o melhor                                   |
+| Conteúdo       | Texto             | Conteúdo da notícia                       | Hardwarefinder é eleito o melhor site para realizar upgrade em computadores do Brasil                            |
 | Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
 
